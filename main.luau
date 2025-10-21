@@ -7,7 +7,7 @@ xllify.ExcelFunction({
     },
 }, function(name: string)
     name = name or "World"
-    return "Hello there, " .. name .. "!"
+    return "How do you do, " .. name .. "?"
 end)
 
 xllify.ExcelFunction({
